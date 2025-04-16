@@ -41,7 +41,7 @@ a{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 700px;
+    height: 600px;
 }
 .image h1,p{
     color: #fff;
@@ -74,6 +74,6 @@ p{
     color: #fff;
 }
 #sobre{
-    height: 600px;
+    height: 800px;
     background-color: #fff;
 }
