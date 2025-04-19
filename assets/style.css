@@ -89,6 +89,7 @@ p{
 .galeria{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .titulo{
     display: flex;
@@ -117,7 +118,22 @@ p{
     align-items: center;
     text-align: center;
 }
-h4 span{
+h4 span, h3 span{
     color: purple;
     font-size: 18px;
+}
+#contato{
+    background-color: #fff;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.zap, .insta,.email{
+    display: flex;
+}
+.contatos{
+    margin-top: 40px;
+    display: flex;
 }
