@@ -3,10 +3,10 @@
     scroll-behavior:smooth;
 }
 body {
-    background-color: #000000;
+    background-color: #000;
 }
 .navbar{
-    background-color: #000000;
+    background-color: #000;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,10 +31,9 @@ a{
     text-decoration: none;
 }
 .logo{
-    width: 70px;
-    height: 70px;
-    transform: scaleX(-1);
-    margin: 10px 0 0 40px;
+    width: 150px;
+    height: 150px;
+    margin: 0px 0 0 40px;
 }
 .image{
     background-color: #000000;
@@ -123,17 +122,33 @@ h4 span, h3 span{
     font-size: 18px;
 }
 #contato{
-    background-color: #fff;
+    background-color: #000;
     height: 300px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
 }
 .zap, .insta,.email{
     display: flex;
 }
+.zap img, .insta img, .email img{
+    width: 90px;
+    height:  90px;;
+}
 .contatos{
     margin-top: 40px;
     display: flex;
+}
+.final{
+    display: flex; align-items: center;
+}
+.final h3{
+    color: #fff;
+}
+.contatos button{
+    background-color: #000;
+    border: none;
+    margin: 10px;
 }
